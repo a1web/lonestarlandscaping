@@ -1,0 +1,12 @@
+
+
+.services-home h1 {
+  font-size: 1em;
+  text-align: center;
+}
+
+.services-home h1 a {
+  display: inline-block;
+  width: 90%;
+  padding: 5%;
+}

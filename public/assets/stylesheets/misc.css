@@ -1,0 +1,12 @@
+
+
+table.draggable a {
+  /* Removing underline from links */
+  border: none;
+}
+
+.ui-dialog {
+  /* This is for the Boxes Module dialog box */
+  background: #fff;
+}
+

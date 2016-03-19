@@ -1,0 +1,524 @@
+/* Site ID
+ * these css sheets consist of coloring, background, typography size and font-family selection options
+------------------------------------------------------------------------------------------------------------*/
+
+body {
+  font-size: 100%;
+  font-family: Helvetica, Geneva, sans-serif;
+  color: #444;
+  text-shadow: #fff 0 1px 0;
+}
+
+#admin-menu {
+  text-shadow: none;
+}
+
+a, a:visited {
+	color: #bb2335;
+}
+
+a {
+}
+
+a:hover,
+a:active {
+	color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+dt {
+  font-family: Georgia, Geneva, sans-serif;
+  color: #bb2335;
+}
+
+pre,
+code {
+  font-family: Menlo, Courier, monospace;
+}
+
+del {
+  color: #f00;
+}
+
+ins {
+  color: #00a;
+}
+
+blockquote {
+  border-left-color: #fff;
+}
+
+
+/**
+ * SITE-WIDE BACKGROUNDS =======================================================
+ */
+
+body {
+	background: #678338;
+}
+
+#header-bg {
+	background: #fff;
+}
+
+#header-top-bg {
+  background: #961c2a;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#c94f5d, #961c2a), color-stop(1, #ddd));
+  background: -moz-linear-gradient(top center, #c94f5d 0%, #961c2a 100%);
+	box-shadow: 0 0 20px #5f6965;  
+  z-index: 10; 
+}
+
+#header-top {
+}
+
+#header {
+}
+
+#branding {
+}
+
+#page-wrap-full-bg {
+	background: url(../images/grass.png) bottom repeat-x, url(../images/clouds.png) top repeat-x, #c5d3de;
+}
+
+#page-wrap-bg {
+	background: #e1e6d7;
+	box-shadow: 0 15px 15px #5f6965;
+}
+
+
+#main-wrap-full-bg {
+	background: #e1e6d7 ;
+}
+
+#main-wrap {
+}
+
+#postscript-bottom {
+	background: #21739b;
+}
+
+#site-info-bg {
+  background: #678338;
+}
+
+
+.region-sidebar-last {
+  background: url(../images/bg-aside-middle.png) 0 0 repeat-y;
+}
+.bg-sidebar-top {
+  background: url(../images/bg-aside-top.png) 0 0 repeat-y;
+}
+.bg-sidebar-bottom {
+  background: url(../images/bg-aside-bottom.png) 0 0 repeat-y;
+
+}
+
+/**
+ * HEADER STYLING =======================================================
+ */
+
+.logo {
+  padding: 25px 0;
+}
+
+#site-name span {
+  display: none;
+}
+
+
+/**
+ * HEADER TOP STYLES =======================================================
+ */
+ 
+#header-top {
+  color: #fff;
+  padding: 10px 0;
+  margin: 0;
+}
+
+#header-top p {
+  text-align: center;
+	text-shadow: #000 0 -1px 0;
+}
+
+
+/**
+ * PREFACE STYLES =======================================================
+ */
+ 
+
+/**
+ * MAIN WRAPPER STYLES =======================================================
+ */
+
+#main-wrap-full-bg {
+  padding: 0 0 25px 0;
+}
+
+/**
+ * FORM STYLES =======================================================
+ */
+
+
+form h5, legend { 
+	color: #555;
+	text-shadow: 1px 1px 1px #fff;
+}
+
+label { 
+	color: #333; 
+}
+
+.form-type-radio label,
+.form-type-checkbox label {
+  color: #555;
+}
+
+fieldset fieldset legend {
+	color: #555;
+}
+
+fieldset fieldset legend a {
+	color: #333;
+}
+
+fieldset fieldset legend a:hover {
+	color: #aaa;
+}
+  
+  
+textarea,
+select,
+input,
+input[type="date"],
+input[type="datetime"], 
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+input[type="file"] {
+  /*
+  Leaving out Helvetica Neue, to not throw off size="..."
+  on inputs. Arial is more reliable, on Windows and OS X.
+  */
+  font-family: Arial, 'Liberation Sans', FreeSans, sans-serif;
+  background: #fff url(../images/button.png) repeat-x;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d7dad8), color-stop(1, #e1e6d7));
+  background: -moz-linear-gradient(top center, #d7dad8 0%, #e1e6d7 100%);
+  border: 2px solid #ccc;
+  border-bottom-color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  box-shadow: inset 3px 3px 5px #cbd1cf;
+}
+
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+  color: #333;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #ddd url(../images/button.png) repeat-x;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fff), color-stop(1, #ddd));
+  background: -moz-linear-gradient(top center, #fff 0%, #ddd 100%);
+  border: 1px solid;
+  border-color: #ddd #bbb #999;
+  text-shadow: #fff 0 1px 1px;
+  /*
+  Helvetica Neue present, because it works better
+  for line-height on buttons than Arial, on OS X.
+  */
+  font-family: 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
+}
+
+input:focus,
+input:active,
+select:focus,
+select:active,
+textarea:focus,
+textarea:active {
+  color: #555;
+  -moz-box-shadow: #ccc 0 0 7px;
+  -webkit-box-shadow: #ccc 0 0 7px;
+  box-shadow: #ccc 0 0 7px;
+  background-color: #fff;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover {
+  color: #555;
+  background: #fff url(../images/button.png) repeat-x;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee), color-stop(1, #fff));
+  background: -moz-linear-gradient(top center, #eee 0%, #fff 100%);
+}
+  
+.description {
+  color: #999;
+}
+
+/**
+ * SEARCH BLOCK =======================================================
+ */
+
+
+
+form#search-block-form {
+	border: 2px #ccc solid;
+	border-radius: 2px;
+}
+
+form#search-block-form input[type="image"] {
+	background: url(../images/search2.png) no-repeat center #999;
+  border-radius: 3px;
+}
+
+form#search-block-form input[type="image"]:hover {
+	background: url(../images/search.png) no-repeat center #fff;
+}
+
+/**
+ * Postscript Bottom =======================================================
+ */
+#preface-bottom .service-list .innertube {
+  background: #839d38;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 5px solid #839d38;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px #878f8b;
+	text-shadow: #000 0 -1px 0;
+}
+
+#preface-bottom .service-list .innertube:hover {
+  background: #bb2335;
+  border: 5px solid #bb2335;
+}
+
+#preface-bottom .service-list h1 a {
+  color: #fff;
+}
+
+
+
+.region-content-bottom h1 a {
+  font-size: .8em;
+}
+
+
+
+/**
+ * Postscript Bottom =======================================================
+ */
+
+#postscript-bottom h1 {
+  color: #fff;
+}
+
+#postscript-bottom,
+#postscript-bottom label {
+  color: #fff;
+}
+
+.messages {
+  text-shadow: none;
+}
+
+#postscript-bottom table,
+#postscript-bottom table a {
+  color: #555;
+  text-shadow: none;
+}
+
+#postscript-bottom table a:hover {
+  color: #000;
+}
+
+#postscript-bottom a {
+  color: #fff;
+}
+
+#postscript-bottom a:hover {
+  color: #ddd;
+}
+
+/**
+ * Miscellaneous Info =======================================================
+ */
+
+#boxes-box-state_and_contact {
+  width: 100%;
+  background: #961c2a;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#878f8b, #37443e), color-stop(1, #ddd));
+  background: -moz-linear-gradient(top center, #878f8b 0%, #37443e 100%);
+	box-shadow: inset 0 0 10px #37443e;  
+  border-radius: 5px;
+  text-align: center;
+	text-shadow: #000 0 -1px 0;
+  padding: 10px 0;
+  margin: 0 0 20px 0;
+}
+
+#postscript-bottom #boxes-box-state_and_contact {
+  padding: 10px 15px;
+  display: inline-block;
+  width: inherit;
+  margin: 20px 0 0 5%;
+}
+
+#boxes-box-state_and_contact h3 {
+  color: #fff;
+}
+
+/**
+ * Site Info =======================================================
+ */
+
+#site-info {
+  color: #fff;
+	text-shadow: #000 0 -1px 0;
+}
+
+#site-info a {
+  color: #fff;
+}
+
+/**
+ * NAVIGATION STYLES =======================================================
+ */
+
+/* MAIN MENU STYLES . . . . . . . . . . . . . . . . . . . . 
+ */
+ 
+#main-nav {
+}
+
+#main-nav .merge ul {
+  padding: 0 0 0 0;
+	border-radius: 5px 5px 0 0;
+}
+
+#main-nav .spacer ul {
+  margin: 0 0 30px 0;
+	border-radius: 5px;
+}
+
+
+#main-nav ul {
+	margin-left: auto;
+  margin-right: auto;
+	text-align: center;
+  background: #125c80;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#73a7c0, #125c80), color-stop(1, #ddd));
+  background: -moz-linear-gradient(top center, #73a7c0 0%, #125c80 100%);
+	box-shadow: 0 0 10px #878f8b;  
+}
+
+#main-nav li a {
+  color: #fff;
+  padding: 10px 15px;
+	text-shadow: #000 0 -1px 0;
+  border-right: #105170 1px solid; 
+  border-left: #73a7c0 1px solid; 
+}
+
+#main-nav li a:hover {
+  background: #961c2a;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#c94f5d, #961c2a), color-stop(1, #ddd));
+  background: -moz-linear-gradient(top center, #c94f5d 0%, #961c2a 100%);
+}
+
+#main-nav li a.active {
+  background: #125c80;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#4489ab, #a1c4d5), color-stop(1, #ddd));
+  background: -moz-linear-gradient(top center, #4489ab 0%, #a1c4d5 100%);
+}
+
+@media screen and (max-width: 1100px) {
+#main-nav .merge ul {
+  padding: 0 0 10px 0;
+}
+
+#main-nav .spacer ul {
+  padding: 0 0 10px 0;
+}
+
+#main-nav li a {
+  padding: 5px 8px;
+  border-radius: 5px;
+	box-shadow: inset 0 0 5px #094064;  
+  border: #105170 1px solid; 
+  border-bottom: #73a7c0;
+  margin: 10px 8px 0 8px;
+}
+
+}
+
+.slider,
+.region-content-top .view img,
+.view img,
+.region-content img {
+	box-shadow: 0 0 10px #878f8b;  
+}
+
+.region-content-top .view img,
+.view img,
+.region-content img {
+	border-radius: 5px;  
+}
+
+a.big-button {
+  display: block;
+  background: #125c80;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#73a7c0, #125c80), color-stop(1, #ddd));
+  background: -moz-linear-gradient(top center, #73a7c0 0%, #125c80 100%);
+	box-shadow: 0 0 20px #5f6965;  
+	border-radius: 0 0 5px 5px;
+  padding: 15px 10px 10px 10px;
+  font-size: 2em;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: center;
+	text-shadow: #000 0 -2px 0;  
+  color: #fff;
+  margin: 0 0 1em 0;
+  border-bottom: none;
+}
+
+a.big-button:hover {
+  background: #961c2a;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#c94f5d, #961c2a), color-stop(1, #ddd));
+  background: -moz-linear-gradient(top center, #c94f5d 0%, #961c2a 100%);
+}
+
+
+
+/* NAVIGATION ELEMENT STYLES . . . . . . . . . . . . . . . . . . . . 
+ */
+
+#postscript-bottom {
+	text-shadow: #000 0 -1px 0;  
+}
+
+#postscript-bottom ul.links a {
+  color: #000;
+}
+

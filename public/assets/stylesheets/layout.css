@@ -1,0 +1,298 @@
+
+/* `Basic HTML
+----------------------------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1500px){
+.logo a img {
+  margin: 0 15%;
+  width: 70%;
+}
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.region-content-top {
+  padding: 0 0 1em 0;
+}
+
+.region-sidebar-last {
+  margin:  0 0 0 15%;
+  padding: 0 0 0 15%;
+}
+.region-postscript-bottom-col-two {
+  margin:  0 0 0 15%;
+}
+
+.bg-sidebar-top,
+.bg-sidebar-bottom {
+  margin:  0 0 0 15%;
+  padding: 10px 0 10px 15%;
+  height: 0px;
+  font-size: 0;
+}
+
+.field-services-image {
+  margin: 1em 0 0 0;
+}
+
+.service-list {
+}
+
+.service-list .views-row,
+.testimonial-list .views-row {
+  border-bottom: dotted 1px #fff;
+  margin: 0 0 1.5em 0;
+  padding: 0 0 1.5em 0;
+}
+
+.service-list .views-row-first,
+.testimonial-list .views-row-first {
+  margin: 1.5em 0 1.5em 0;
+  padding: 0 0 1.5em 0;
+}
+
+.service-list .views-row-last,
+.testimonial-list .views-row-last {
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+}
+
+  /*.content-main and .content-aside are being used by the services list to get the image to stay to left while content stays to right.*/
+
+.content-main,
+.content-main-full {
+  margin: 0 10% 0 0;
+}
+
+.content-aside {
+  width: 25%;
+  margin: 0 5% 0 0;
+}
+
+.content-main {
+  width: 60%;
+}
+
+  /*this is being used by home page service list to create a 5 column list*/
+.five-col {
+  width: 18.4%;
+  float: left;
+  display: inline-block;
+}
+
+
+.service-list .views-row.services-home {
+  border-bottom: none;
+  margin: 0 2% 0 0;
+  padding: 0 0 1.5em 0;
+}
+
+
+
+.service-list .views-row-5.services-home,
+.service-list .views-row-10.services-home,
+.service-list .views-row-15.services-home,
+.service-list .views-row-20.services-home,
+.service-list .views-row-25.services-home,
+.service-list .views-row-30.services-home {
+  /*removes right margin from last row for justified alignment*/
+  margin: 0 0 0 0;
+}
+
+.service-list .views-row-6.services-home,
+.service-list .views-row-11.services-home,
+.service-list .views-row-16.services-home,
+.service-list .views-row-21.services-home,
+.service-list .views-row-26.services-home,
+.service-list .views-row-31.services-home {
+  /*should force lines to align correctly*/
+  clear: left;
+}
+
+
+.testimonial-list .name,
+.testimonial-list .address {
+  text-align: right;
+}
+
+.field-services-image {
+  margin: .5em 0 1em 0;
+}
+
+
+
+.views-slideshow-cycle-main-frame-row-item img {
+  height: auto;
+  display: block;
+}
+
+#views_slideshow_cycle_main_home_slider-home_slider,
+.views_slideshow_cycle_teaser_section,
+.views-slideshow-cycle-main-frame,
+.views_slideshow_cycle_slide,
+.views-slideshow-cycle-main-frame-row {
+  width: 100% !important;
+  height: 520px !important;
+  position: relative;
+}
+
+/*
+@media screen and (max-width: 1700px) {
+#views_slideshow_cycle_main_home_slider-home_slider,
+.views_slideshow_cycle_teaser_section,
+.views-slideshow-cycle-main-frame,
+.views_slideshow_cycle_slide,
+.views-slideshow-cycle-main-frame-row {
+  height: 600px !important;
+}
+}
+@media screen and (max-width: 1400px) {
+
+#views_slideshow_cycle_main_home_slider-home_slider,
+.views_slideshow_cycle_teaser_section,
+.views-slideshow-cycle-main-frame,
+.views_slideshow_cycle_slide,
+.views-slideshow-cycle-main-frame-row {
+  height: 520px !important;
+}
+
+}
+*/
+@media screen and (max-width: 1500px) {
+
+#views_slideshow_cycle_main_home_slider-home_slider,
+.views_slideshow_cycle_teaser_section,
+.views-slideshow-cycle-main-frame,
+.views_slideshow_cycle_slide,
+.views-slideshow-cycle-main-frame-row {
+  height: 440px !important;
+}
+
+}
+@media screen and (max-width: 1100px) {
+
+#views_slideshow_cycle_main_home_slider-home_slider,
+.views_slideshow_cycle_teaser_section,
+.views-slideshow-cycle-main-frame,
+.views_slideshow_cycle_slide,
+.views-slideshow-cycle-main-frame-row {
+  height: 320px !important;
+}
+
+}
+
+aside .texas-shape {
+  background: url(../images/texas.png) 0 0 no-repeat;
+  padding: 50px 53px;
+  display: inline-block;
+  margin: 1em 0 0 0;
+}
+
+#postscript-bottom .texas-shape {
+  background: url(../images/texas.png) 0 -100px no-repeat;
+  padding: 50px 53px;
+  display: inline-block;
+  margin: 1em 0 0 0;
+  float: left;
+}
+
+
+#postscript-bottom .contact {
+  margin: 1em 0 0 .5em;
+}
+
+
+.full-list {
+  border-bottom: dotted 1px #555;
+  margin: 1em 0 .25em 0;
+  padding: 0 0 .25em 0;
+}
+
+#postscript-bottom {
+  padding: 30px 0 0 0;
+}
+
+#site-info {
+  padding: 30px 0;
+}
+
+a.site-credit {
+    background: url("http://themes.goa1web.com/global/icons/a1-white.png") no-repeat scroll right bottom transparent;
+    display: block;
+    float: right;
+    margin-top: -10px;
+    height: 24px;
+    width: 24px;
+}
+
+a.site-credit span {
+    display: none;
+}
+
+a.chosen-ones-ad {
+  color: #fff;
+  background-color: #6699ff;
+  background: #6699ff url(../images/chosen_ones_ad/kids.png) no-repeat bottom center;
+  display: block;
+  border-radius: 5px;
+  width: 80%;
+  padding: 10% 10% 110px 10%; 
+  text-shadow: none;
+  margin: 0 0 1em 0;
+  box-shadow: inset 0 0 6px #4465a9;
+}
+
+
+a.chosen-ones-ad h1 {
+	color: #fff;
+  font-size: 1.6em;
+  text-shadow: 1px 1px 2px #4465a9;
+  /*background: url(../images/chosen_ones_ad/logo.png) no-repeat 0 0;
+  background-size: cover;
+  padding-top: 25px;*/
+}
+
+a.chosen-ones-ad h2 {
+	color: #f5e81f;
+  font-style: italic;
+  font-size: 1.2em;
+  text-shadow: 1px 1px 5px #4465a9;
+}
+
+a.chosen-ones-ad header {
+	margin: 0 0 .5em 0;
+}
+
+a.chosen-ones-ad .learn-more {
+  color: #fff;
+  font-weight: bold;
+  letter-spacing: .045em;
+  background: #961c2a;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(#4460c3), color-stop(1, #39568f));
+  background: -moz-linear-gradient(top center, #4460c3 0%, #39568f 100%);
+  border-radius: 5px;
+  line-height: .8em;
+  margin: 5px 0;
+  font-size: .8em;
+	display: inline-block;
+  padding: 7px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+a.chosen-ones-ad .learn-more:hover {
+  color: #999;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #eee), color-stop(1, #fff));
+  background: -moz-linear-gradient(top center, #eee 0%, #fff 100%);
+}
+
+a.chosen-ones-ad:link {
+  color: #fff;
+}

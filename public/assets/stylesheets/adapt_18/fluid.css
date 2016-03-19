@@ -1,0 +1,474 @@
+/*
+	Variable Grid System (Fluid Version).
+	Learn more ~ http://www.spry-soft.com/grids/
+	Based on 960 Grid System - http://960.gs/ & 960 Fluid - http://www.designinfluences.com/
+
+	Licensed under GPL and MIT.
+*/
+
+
+/* Containers
+----------------------------------------------------------------------------------------------------*/
+.container-18 {
+	width: 92%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+/* Grid >> Global
+----------------------------------------------------------------------------------------------------*/
+
+.grid-1,
+.grid-2,
+.grid-3,
+.grid-4,
+.grid-5,
+.grid-6,
+.grid-7,
+.grid-8,
+.grid-9,
+.grid-10,
+.grid-11,
+.grid-12,
+.grid-13,
+.grid-14,
+.grid-15,
+.grid-16,
+.grid-17,
+.grid-18 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+/* Grid >> Children (Alpha ~ First, Omega ~ Last)
+----------------------------------------------------------------------------------------------------*/
+
+.alpha {
+	margin-left: 0;
+}
+
+.omega {
+	margin-right: 0;
+}
+
+/* Grid >> 18 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.gutter .region {
+	padding-right: 1.75%;
+}
+
+
+.container-18 .grid-1 {
+	width:3.556%;
+}
+
+.container-18 .grid-2 {
+	width:9.111%;
+}
+
+.container-18 .grid-3 {
+	width:14.667%;
+}
+
+.container-18 .grid-4 {
+	width:20.222%;
+}
+
+.container-18 .grid-5 {
+	width:25.778%;
+}
+
+.container-18 .grid-6 {
+	width:31.333%;
+}
+
+.container-18 .grid-7 {
+	width:36.889%;
+}
+
+.container-18 .grid-8 {
+	width:42.444%;
+}
+
+.container-18 .grid-9 {
+	width:48.0%;
+}
+
+.container-18 .grid-10 {
+	width:53.556%;
+}
+
+.container-18 .grid-11 {
+	width:59.111%;
+}
+
+.container-18 .grid-12 {
+	width:64.667%;
+}
+
+.container-18 .grid-13 {
+	width:70.222%;
+}
+
+.container-18 .grid-14 {
+	width:75.778%;
+}
+
+.container-18 .grid-15 {
+	width:81.333%;
+}
+
+.container-18 .grid-16 {
+	width:86.889%;
+}
+
+.container-18 .grid-17 {
+	width:92.444%;
+}
+
+.container-18 .grid-18 {
+	width:98.0%;
+}
+
+
+
+/* Prefix Extra Space >> 18 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container-18 .prefix-1 {
+	padding-left:5.556%;
+}
+
+.container-18 .prefix-2 {
+	padding-left:11.111%;
+}
+
+.container-18 .prefix-3 {
+	padding-left:16.667%;
+}
+
+.container-18 .prefix-4 {
+	padding-left:22.222%;
+}
+
+.container-18 .prefix-5 {
+	padding-left:27.778%;
+}
+
+.container-18 .prefix-6 {
+	padding-left:33.333%;
+}
+
+.container-18 .prefix-7 {
+	padding-left:38.889%;
+}
+
+.container-18 .prefix-8 {
+	padding-left:44.444%;
+}
+
+.container-18 .prefix-9 {
+	padding-left:50.0%;
+}
+
+.container-18 .prefix-10 {
+	padding-left:55.556%;
+}
+
+.container-18 .prefix-11 {
+	padding-left:61.111%;
+}
+
+.container-18 .prefix-12 {
+	padding-left:66.667%;
+}
+
+.container-18 .prefix-13 {
+	padding-left:72.222%;
+}
+
+.container-18 .prefix-14 {
+	padding-left:77.778%;
+}
+
+.container-18 .prefix-15 {
+	padding-left:83.333%;
+}
+
+.container-18 .prefix-16 {
+	padding-left:88.889%;
+}
+
+.container-18 .prefix-17 {
+	padding-left:94.444%;
+}
+
+
+
+/* Suffix Extra Space >> 18 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container-18 .suffix-1 {
+	padding-right:5.556%;
+}
+
+.container-18 .suffix-2 {
+	padding-right:11.111%;
+}
+
+.container-18 .suffix-3 {
+	padding-right:16.667%;
+}
+
+.container-18 .suffix-4 {
+	padding-right:22.222%;
+}
+
+.container-18 .suffix-5 {
+	padding-right:27.778%;
+}
+
+.container-18 .suffix-6 {
+	padding-right:33.333%;
+}
+
+.container-18 .suffix-7 {
+	padding-right:38.889%;
+}
+
+.container-18 .suffix-8 {
+	padding-right:44.444%;
+}
+
+.container-18 .suffix-9 {
+	padding-right:50.0%;
+}
+
+.container-18 .suffix-10 {
+	padding-right:55.556%;
+}
+
+.container-18 .suffix-11 {
+	padding-right:61.111%;
+}
+
+.container-18 .suffix-12 {
+	padding-right:66.667%;
+}
+
+.container-18 .suffix-13 {
+	padding-right:72.222%;
+}
+
+.container-18 .suffix-14 {
+	padding-right:77.778%;
+}
+
+.container-18 .suffix-15 {
+	padding-right:83.333%;
+}
+
+.container-18 .suffix-16 {
+	padding-right:88.889%;
+}
+
+.container-18 .suffix-17 {
+	padding-right:94.444%;
+}
+
+
+
+/* Push Space >> 18 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container-18 .push-1 {
+	left:5.556%;
+}
+
+.container-18 .push-2 {
+	left:11.111%;
+}
+
+.container-18 .push-3 {
+	left:16.667%;
+}
+
+.container-18 .push-4 {
+	left:22.222%;
+}
+
+.container-18 .push-5 {
+	left:27.778%;
+}
+
+.container-18 .push-6 {
+	left:33.333%;
+}
+
+.container-18 .push-7 {
+	left:38.889%;
+}
+
+.container-18 .push-8 {
+	left:44.444%;
+}
+
+.container-18 .push-9 {
+	left:50.0%;
+}
+
+.container-18 .push-10 {
+	left:55.556%;
+}
+
+.container-18 .push-11 {
+	left:61.111%;
+}
+
+.container-18 .push-12 {
+	left:66.667%;
+}
+
+.container-18 .push-13 {
+	left:72.222%;
+}
+
+.container-18 .push-14 {
+	left:77.778%;
+}
+
+.container-18 .push-15 {
+	left:83.333%;
+}
+
+.container-18 .push-16 {
+	left:88.889%;
+}
+
+.container-18 .push-17 {
+	left:94.444%;
+}
+
+
+
+/* Pull Space >> 18 Columns
+----------------------------------------------------------------------------------------------------*/
+
+
+.container-18 .pull-1 {
+	left:-5.556%;
+}
+
+.container-18 .pull-2 {
+	left:-11.111%;
+}
+
+.container-18 .pull-3 {
+	left:-16.667%;
+}
+
+.container-18 .pull-4 {
+	left:-22.222%;
+}
+
+.container-18 .pull-5 {
+	left:-27.778%;
+}
+
+.container-18 .pull-6 {
+	left:-33.333%;
+}
+
+.container-18 .pull-7 {
+	left:-38.889%;
+}
+
+.container-18 .pull-8 {
+	left:-44.444%;
+}
+
+.container-18 .pull-9 {
+	left:-50.0%;
+}
+
+.container-18 .pull-10 {
+	left:-55.556%;
+}
+
+.container-18 .pull-11 {
+	left:-61.111%;
+}
+
+.container-18 .pull-12 {
+	left:-66.667%;
+}
+
+.container-18 .pull-13 {
+	left:-72.222%;
+}
+
+.container-18 .pull-14 {
+	left:-77.778%;
+}
+
+.container-18 .pull-15 {
+	left:-83.333%;
+}
+
+.container-18 .pull-16 {
+	left:-88.889%;
+}
+
+.container-18 .pull-17 {
+	left:-94.444%;
+}
+
+
+
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}

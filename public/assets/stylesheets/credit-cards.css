@@ -1,0 +1,125 @@
+
+.credit-cards {
+	margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.credit-cards ul {
+	margin: 0;
+}
+.credit-cards li {
+  display: inline-block;
+  height: 0;
+  margin: 0 9px 0 0;
+  padding: 15px 23px;
+  width: 0;
+  font-size: 0;
+  box-shadow: 2px 2px 6px #aaa;
+  border-radius: 5px;
+}
+
+.credit-cards li:nth-child(4),
+.credit-cards li:nth-child(8) {
+  margin: 0;
+  float: right;
+}
+
+.credit-cards li span {
+  display: none;
+}
+
+.credit-cards .copy {
+	text-transform: uppercase;
+  font-size: .7em;
+  line-height: 1em;
+  display: block;
+}
+
+
+/* Credit card icons found free at by http://www.yootheme.com/icons */
+
+.amex {
+  background: url(/assets/images/credit-cards/cc-amex-48.png) no-repeat center;
+}
+
+.discover {
+  background: url(/assets/images/credit-cards/cc-discover-48.png) no-repeat center;
+}
+
+.mastercard {
+  background: url(/assets/images/credit-cards/cc-mastercard-48.png) no-repeat center;
+}
+
+.visa {
+  background: url(/assets/images/credit-cards/cc-visa-48.png) no-repeat center;
+}
+
+.paypal {
+  background: url(/assets/images/credit-cards/cc-paypal-48.png) no-repeat center;
+}
+
+
+@media screen and (max-width: 1500px) {
+
+.credit-cards li {
+  margin: 0 16px 0 0;
+  padding: 21px 16px 0 16px;
+  border-radius: 3px;
+}
+  
+.amex {
+  background: url(/assets/images/credit-cards/cc-amex-32.png) no-repeat center;
+}
+
+.discover {
+  background: url(/assets/images/credit-cards/cc-discover-32.png) no-repeat center;
+}
+
+.mastercard {
+  background: url(/assets/images/credit-cards/cc-mastercard-32.png) no-repeat center;
+}
+
+.visa {
+  background: url(/assets/images/credit-cards/cc-visa-32.png) no-repeat center;
+}
+
+.paypal {
+  background: url(/assets/images/credit-cards/cc-paypal-32.png) no-repeat center;
+}
+
+}
+
+@media screen and (max-width: 1100px) {
+
+.credit-cards li {
+  margin: 0 9px 0 0;
+  padding: 15px 23px;
+  border-radius: 5px;
+}
+
+.credit-cards li:nth-child(4),
+.credit-cards li:nth-child(8) {
+  float: none;
+}
+  
+.amex {
+  background: url(/assets/images/credit-cards/cc-amex-48.png) no-repeat center;
+}
+
+.discover {
+  background: url(/assets/images/credit-cards/cc-discover-48.png) no-repeat center;
+}
+
+.mastercard {
+  background: url(/assets/images/credit-cards/cc-mastercard-48.png) no-repeat center;
+}
+
+.visa {
+  background: url(/assets/images/credit-cards/cc-visa-48.png) no-repeat center;
+}
+
+.paypal {
+  background: url(/assets/images/credit-cards/cc-paypal-48.png) no-repeat center;
+}
+
+}
